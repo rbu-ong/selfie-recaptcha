@@ -6,13 +6,13 @@ The `CameraCapture` component is a React component that integrates webcam functi
 
 ## Screenshots
 
-Capture with no face detected.
+Capture with no face detected.<br>
 ![Capture with no face detected.](gitimages/no-face-detected.jpg)
 
-Capture with recaptcha randomize symbols.
+Capture with recaptcha randomize symbols.<br>
 ![Capture with recaptcha randomize symbols.](gitimages/recaptcha.jpg)
 
-Validation result.
+Validation result.<br>
 ![Validation result.](gitimages/validation-result.jpg)
 
 ## Features
