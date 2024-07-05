@@ -4,6 +4,12 @@
 
 The `CameraCapture` component is a React component that integrates webcam functionality and face detection using `face-api.js`. It captures a selfie, overlays a randomized grid of shapes, and validates user selections against a specific shape.
 
+## Screenshots
+
+![Capture with no face detected.](gitimages/no-face-detected.jpg)
+![Capture with recaptcha randomize symbols.](gitimages/recaptcha.jpg)
+![Validation result.](gitimages/validation-result.jpg)
+
 ## Features
 
 - Captures an image from the webcam.
