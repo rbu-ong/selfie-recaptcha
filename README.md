@@ -45,6 +45,10 @@ After the image is built, you can run it with:
 docker run -p 80:80 selfie-recaptcha
 ```
 
+### Access Your Application
+
+Open a web browser and go to http://localhost. You should see your React application running.
+
 ## Component Breakdown
 
 ### Imports
