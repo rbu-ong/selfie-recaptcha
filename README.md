@@ -27,14 +27,22 @@ Validation result.<br>
 
 ### Prerequisites
 
-Ensure you have `node.js` and `npm` installed and a camera available.
+Ensure you have `docker` installed and a camera available.
 
-### Dependencies
+### Build the Docker Image
 
-Install the required dependencies:
+Open a terminal in the root directory of your project and run:
 
 ```bash
-npm install
+docker build -t selfie-recaptcha .
+```
+
+### Run the Docker Container
+
+After the image is built, you can run it with:
+
+```bash
+docker run -p 80:80 selfie-recaptcha
 ```
 
 ## Component Breakdown
